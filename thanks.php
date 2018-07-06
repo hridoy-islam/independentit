@@ -1,1 +1,0 @@
-<h1> Thanks for your email Please Go back to home</h1>
